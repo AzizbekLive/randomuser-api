@@ -1,1 +1,1 @@
-package uz.gita.users_app.utilsobject Constants {    const val BASE_URL = "https://randomuser.me/"    const val USERS_COUNT = 5}
+package uz.gita.users_app.utilsobject Constants {    const val BASE_URL = "https://randomuser.me/"    const val USERS_COUNT = 100}
