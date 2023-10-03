@@ -1,0 +1,1 @@
+package uz.gita.users_app.presenter.screens.mainimport kotlinx.coroutines.flow.StateFlowimport uz.gita.users_app.data.model.UsersModelinterface MainContract {    interface ViewModel {        val uiState: StateFlow<UIState>    }    data class UIState(        val userList: List<UsersModel> = emptyList(),    )}

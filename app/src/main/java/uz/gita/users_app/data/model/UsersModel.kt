@@ -1,0 +1,1 @@
+package uz.gita.users_app.data.modeldata class UsersModel(    val fullName: String,    val gender: String,    val country: String,    val email: String,    val picture: String,)

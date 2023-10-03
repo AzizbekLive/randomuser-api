@@ -1,0 +1,1 @@
+package uz.gita.users_app.data.source.remote.responsedata class Street(    val name: String,    val number: Int)

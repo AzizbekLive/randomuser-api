@@ -1,0 +1,1 @@
+package uz.gita.users_app.data.source.remote.responsedata class UsersResponse(    val info: Info,    val results: List<Result>)

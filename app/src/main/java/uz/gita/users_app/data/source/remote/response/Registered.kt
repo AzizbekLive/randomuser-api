@@ -1,0 +1,1 @@
+package uz.gita.users_app.data.source.remote.responsedata class Registered(    val age: Int,    val date: String)

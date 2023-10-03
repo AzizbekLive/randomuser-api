@@ -1,0 +1,1 @@
+package uz.gita.users_app.data.source.remote.responsedata class Coordinates(    val latitude: String,    val longitude: String)

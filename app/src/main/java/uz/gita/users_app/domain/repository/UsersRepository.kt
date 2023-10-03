@@ -1,0 +1,1 @@
+package uz.gita.users_app.domain.repositoryimport kotlinx.coroutines.flow.Flowimport uz.gita.users_app.data.model.UsersModelinterface UsersRepository {    fun getAllUser(): Flow<List<UsersModel>>}
