@@ -1,1 +1,1 @@
-package uz.gita.users_app.domain.usecaseimport kotlinx.coroutines.flow.Flowimport uz.gita.users_app.data.model.UsersModelinterface UsersUseCase {    operator fun invoke(): Flow<List<UsersModel>>}
+package uz.gita.users_app.domain.usecaseimport kotlinx.coroutines.flow.Flowimport uz.gita.users_app.data.model.UsersModelinterface UsersUseCase {    operator fun invoke(): Flow<List<UsersModel>>}

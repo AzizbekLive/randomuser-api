@@ -87,13 +87,23 @@ dependencies {
     implementation("cafe.adriel.voyager:voyager-transitions:$voyagerVersion")
     implementation("cafe.adriel.voyager:voyager-androidx:$voyagerVersion")
 
-
     // Chucker
     debugImplementation "com.github.chuckerteam.chucker:library:4.0.0"
     releaseImplementation "com.github.chuckerteam.chucker:library-no-op:4.0.0"
 
     // Glide
     implementation "com.github.bumptech.glide:compose:1.0.0-beta01"
+
+    // Room
+    def room_version = "2.5.2"
+    implementation "androidx.room:room-runtime:$room_version"
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+
+    // To use Kotlin annotation processing tool (kapt)
+    //noinspection KaptUsageInsteadOfKsp
+    kapt "androidx.room:room-compiler:$room_version"
+    implementation 'androidx.room:room-ktx:2.2.1'
+
 }
 
 kapt {
