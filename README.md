@@ -7,6 +7,8 @@ RandomUser is an Android app that fetches and displays random user data from a p
 ## Screenshots
 
 <img src="https://github.com/AzizbekLive/randomuser-api/assets/120745929/5636f21a-613b-432d-bd53-392eb96a2d8d" width="200">
+<img src="https://github.com/AzizbekLive/randomuser-api/assets/120745929/1d95085e-c917-4912-a28f-fb5f0820c9d1" width="200">
+
 
 
 ## Features
